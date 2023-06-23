@@ -35,7 +35,7 @@ public class ImagePreprocessor {
         }
     }
 
-    private Mat preprocessImage(Mat inputImage, int targetWidth, int targetHeight) {
+    Mat preprocessImage(Mat inputImage, int targetWidth, int targetHeight) {
         Mat resizedImage = new Mat();
         Size targetSize = new Size(targetWidth, targetHeight);
         Imgproc.resize(inputImage, resizedImage, targetSize, 0, 0, Imgproc.INTER_LINEAR);

@@ -9,7 +9,7 @@ import java.nio.file.StandardCopyOption;
 public class RaceSorter {
 
     public static void main(String[] args) {
-        String sourceDir = "src/main/resources/static/UTKFaces/data/images";
+        String sourceDir = "src/main/resources/static/UTKFaces/data/testingSample";
         String destinationDir = "src/main/resources/static/UTKFaces/data/sorted_races";
 
         File sourceDirectory = new File(sourceDir);
